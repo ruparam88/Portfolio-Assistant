@@ -185,7 +185,7 @@ export const ChatContainer = () => {
       </div>
 
       {/* Input Area */}
-      <div className="flex-shrink-0 p-4 space-y-4 bg-background/80 backdrop-blur-sm border-t border-border/50">
+      <div className="flex-shrink-0 p-4 space-y-4 backdrop-blur-lg rounded-2xl bg-[#dce0e288]">
         <QuickActionPills
           onSelect={handleQuickAction}
           showPills={showPills}
